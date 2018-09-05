@@ -1,14 +1,74 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-<meta charset="utf-8">
-<title>
-home page</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CNIT132 Homework 1: List of CNIT133 homework assignments completed by Hendrik Brutsaert"
+  />
+  <title>CNIT 132 Homework</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="home/hw1.css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      padding-bottom: 70px;
+    }
+  </style>
 </head>
-<body>
-  {{>header}}
-  <p>{{screamIt welcomeMessage}}</p>
-{{>footer}}
+
+<body style="padding: 1rem; ">
+
+  <div class="container-fluid" style="background:rgba(0, 15, 80, 0.753); padding: 1rem; ">
+
+    <div class="jumbotron" style="padding:0px">
+      <div class="panel top" style="padding-bottom:1rem;">
+        <img src="home/Logo01.png" class="logoImage" alt="logo01">
+        <nav class="navbar navbar-expand-lg navbar-default">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav">
+              <li>
+                <div class="dropdown">
+                  <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">Coursework
+                    <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="../hw2/hw2.html">cnit 132<br /> <small>Homework 2</small></a></li>
+                    <li role="separator" class="divider"></li>
+
+                  </ul>
+                </div>
+              </li>
+              <li><a href="https://github.com/stepseazy">Github</a></li>
+              <li><a href="https://stackoverflow.com/users/682355/rik">Stack Overflow</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4 col-4 biography1">
+        <div class="imageFrame">
+            <img src="home/jumping.png" class="logoImage2" alt="logo02">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-8 description1">
+        <h3>
+          Welcome to my homepage! I'm a student at CCSF studying web programming! My favorite subjects are Mathematical Analysis and Artificial Intelligence! In my spare time I like to Mountain Bike and dance salsa.
+        </h3>
+        <a href="http://www.css-validator.org/validator?uri=https%3A%2F%2Fhills.ccsf.edu%2F~hbrutsae%2Fcnit132%2Fhw1%2Fhw1.css&profile=css21&usermedium=all&warning=1&lang=en"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"> </a>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhills.ccsf.edu%2F~hbrutsae%2Fcnit132%2Fhw1%2Fhw1.html">
+          <img style="border:0;width:31px;height:31px" src="home/html5.png" alt="HTML5">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-fixed-bottom text-center">Last Updated: 9/05/2018 contact: rik@brutsaert.us</div>
 </body>
+
+
 </html>
